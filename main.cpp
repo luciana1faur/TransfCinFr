@@ -1,17 +1,25 @@
 #include <iostream>
 using namespace std;
-void main()
+
+int main()
 {
-int t1, t2;
+int t;
+int t1;
+int t2;
+
+
 t1 = 0; t2 = 100; // Intervalul de temperaturi
-t = t1;
+//t = t1;
+
+
 while (t <= t2)
 {
-cout << t << " " << convers(t) << endl;
+  cout << t << " " << convers(t, t2);
+//cout << t << " " << convers(t) << endl;
 t += 10;
 }
 }
-double convers(int t)
+double convers(int, double)
 {
 int t;
 double v;
